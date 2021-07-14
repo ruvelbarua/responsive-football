@@ -4,32 +4,78 @@
 /* This is body section */
  body{
     font-family: 'Poppins', sans-serif;
-     background-color:#FFFFFF;
+    background-color:brown;
  }
-/* This is main section */
+/* This is main section
 main{
     display: flex;
     align-items: center;
 }
-/* This is div section */
 .container{
-    background-color:#FFFFFF;
-    width:330px;
+    background-color:white;
+    width: 330px;
+    height: 456px;
+    
 }
 .players{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items:top;
 }
 .player img{
     width: 300px;
     height: 256px;
+    
 }
 .players-name{
-    margin-left: 15px;
-    }
-.player{
-    display: flax;
+    margin-bottom: 20px;
+} */
+main{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-
-
+}
+.container{
+    background-color:#FFFFFF;
+    width: 330px;
+    height: 456px;
+    top: 747px;
+    left: 180px;
+    padding:15px;
+}
+.top-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players{
+    display: flex;
+    background-color:#FFFFFF;
+    
+}
+.player-img img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    margin-left: 10px;
+}
+.fa-instagram-square.field{
+    color: cornflowerblue;
+}
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+}
+.player-details{
+    display: flex;
+    width: 300px;
+    height: 54px;
+    top: 272px;
+    flex-direction: column;
+    align-items: center;
+    background:#FFFFFF;
+    font-size: 16px;
+}
