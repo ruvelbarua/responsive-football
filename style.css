@@ -81,15 +81,37 @@ h3{
     left: 1299.01px;
     /* top: 153px; */
 }
-/* This is folter part */
-footer{
+/* Match Section */
+.match-part{
+    display: grid;
+}
+.match-pic img{
     display: flex;
+    width: 567px;
+    height: 427px;
+}
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 16px;
+}
+/* This is folter part */
+.footer-part{
+    display:visible;
     align-items: center;
 }
 .football-logo,img{
     width:483.87px;
     height: 100px;
+    align-items: center;
 }
-.icon{
+.icons{
     font-size: 30px;
+    align-items: center;
+}
+h3{
+    font-size: 18px;
+    color: black;
+    text-align: center;
 }
