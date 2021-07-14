@@ -1,0 +1,12 @@
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player img{
+    width: 156px;
+    height: 156px;
+}
+.player{
+    display: flax;
+    align-items: center;
+}
