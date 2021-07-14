@@ -1,11 +1,10 @@
 /* 400 Fonts Link Form Google  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* Body Font Style */
-font-family: 'Poppins', sans-serif;
+
 /* This is body section */
  body{
-     background-color:url(image.png);
-
+    font-family: 'Poppins', sans-serif;
+     background-color:#FFFFFF;
  }
 /* This is main section */
 main{
@@ -15,14 +14,12 @@ main{
 /* This is div section */
 .container{
     background-color:#FFFFFF;
-    height: 474px;
     width:330px;
-    padding: 27px;
-    ;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
 }
 .player img{
     width: 300px;
