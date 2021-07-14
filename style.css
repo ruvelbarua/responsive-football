@@ -4,7 +4,7 @@
 /* This is body section */
  body{
     font-family: 'Poppins', sans-serif;
-    background-color:brown;
+    background-color:#FFFFFF;
  }
 /* This is main section */
 main{
@@ -58,8 +58,31 @@ main{
 .raiting{
     background-color: cornsilk;
 }
-/* Footer section */
-.footer{
+/* Header Section */
+header{
+display: flex;
+background-color: #2D25A0;
+height: 677px;
+width: 1440px;
+}
+.head{
+    display: flex;
+}
+.header-font{
+    color: #FFFFFF;
+    font-size:64px;
+}
+h3{
+    color:white
+}
+.live-match img{
+    width: 556.01px;
+    height: 438px;
+    left: 1299.01px;
+    /* top: 153px; */
+}
+/* This is folter part */
+footer{
     display: flex;
     align-items: center;
 }
