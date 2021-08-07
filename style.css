@@ -68,9 +68,9 @@ main{
     
 }
 .player-img img{
-    width: 300px;
-    height: 256px;
-    margin: 15px;
+    width: 350px;
+    height: 310px;
+    margin: 5px;
 }
 .player-info{
     top: 50px;
@@ -81,13 +81,6 @@ main{
     font-size: 28px;
 }
 .player-details{
-    display: flex;
-    width: 300px;
-    height: 54px;
-    top: 272px;
-    flex-direction: column;
-    align-items: center;
-    background:#FFFFFF;
     font-size: 16px;
 }
 .raiting{
@@ -95,25 +88,31 @@ main{
 }
 
 /* Match Section */
-.match-part{
+/* .match-part{
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
-    grid: row gap 20px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-row-gap:5px; */
+    /* margin-left: 20%; */
+.match-font{
+    text-align: center;
 }
 .football-logo{
     display: flex;
     grid-column: 20px;
+    margin-left: 20%;
 }
 .match-pic img{
     display: flex;
     width: 567px;
     height: 427px;
+    margin-left: 20%;
 }
 h1{
     font-size: 48px;
 }
 p{
     font-size: 16px;
+    text-align: center;
 }
 /* This is footer part */
 .footer-part{ 
@@ -125,9 +124,15 @@ p{
     height: 100px;
     align-items: center;
 }
+.match-text{
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 85px;
+    font-size: 25px;
+}
 .icons{
     font-size: 30px;
-    align-items: center;
+    text-align: center;
 }
 h3{
     font-size: 18px;
