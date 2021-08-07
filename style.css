@@ -1,11 +1,51 @@
 /* 400 Fonts Link Form Google  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* Header Section */
+header{
+    display: flex;
+    background-color: #2D25A0;
+    height: 450px;
+    width: 1440px;
+}
+.head{
+    display: flex;
+}
+.header-font{
+    color: #FFFFFF;
+    font-size:64px;
+}
+.live-font{
+    color:white;
+    margin-right:40px;
+    text-align: center;
+    font-size: 30px;
+}
+.live-match img{
+width: 550px;
+height: 438px;
+right: 125px;
+/* top: 153px; */
+}
+/* This is top body section */
+.top-section{
+    background-color:#FFFFFF;
+    width: 350px;
+    height: 556px;
+    top: 747px;
+    
+    padding:5px;
+}
+.font-align{
+    margin-left:40px;
+    text-align: center;
+}
 /* This is body section */
  body{
     font-family: 'Poppins', sans-serif;
     background-color:#FFFFFF;
  }
+
 /* This is main section */
 main{
     display: flex;
@@ -17,19 +57,14 @@ main{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row:20px;
+    grid-row-gap:10px;
 }
-.top-section{
-    background-color:#FFFFFF;
-    width: 330px;
-    height: 456px;
-    top: 747px;
-    left: 180px;
-    padding:15px;
-}
+
 .players{
     display: flex;
+    align-items: center;
     background-color:#FFFFFF;
+    margin-left: 5%;
     
 }
 .player-img img{
@@ -58,29 +93,7 @@ main{
 .raiting{
     background-color: cornsilk;
 }
-/* Header Section */
-header{
-display: flex;
-background-color: #2D25A0;
-height: 350px;
-width: 1440px;
-}
-.head{
-    display: flex;
-}
-.header-font{
-    color: #FFFFFF;
-    font-size:64px;
-}
-.live-font{
-    color:white;
-}
-.live-match img{
-    width: 556.01px;
-    height: 438px;
-    left: 1299.01px;
-    /* top: 153px; */
-}
+
 /* Match Section */
 .match-part{
     display: grid;
